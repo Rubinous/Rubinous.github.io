@@ -1,0 +1,222 @@
+.framed {
+  border: 4px solid #fff;
+  box-shadow: 0 0 5px #aaa;
+}
+html, body {
+  height: 100%;
+  min-width: 100%;
+}
+body {
+  background: #fff;
+  font-size: 15px;
+  line-height: 19px;
+  color: #333333;
+  font-family: 'museo-sans', 'Helvetica Neue', 'Helvetica', 'Arial';
+  font-weight: 200;
+}
+#navigation-holder {
+  height: 30px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.navigation-wrapper {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+ul.navigation {
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+ul.navigation li {
+  display: inline;
+  font-size: 16px;
+  line-height: 35px;
+  padding: 10px 20px;
+  background: rgba(100, 100, 100, 0.8);
+  border-left: 1px solid #999;
+}
+ul.navigation li:hover {
+  background: #646464;
+}
+ul.navigation li a {
+  text-decoration: none;
+  color: #fff;
+}
+ul.navigation li:first-child {
+  border-radius: 0 0 0 5px;
+  border-left: 0;
+}
+ul.navigation li:last-child {
+  border-radius: 0 0 5px 0;
+}
+.row {
+  width: 100%;
+  float: left;
+}
+.row.full {
+  min-height: 100%;
+}
+.row.full .section-wrapper {
+  min-height: 100%;
+}
+.section-wrapper {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}
+.section {
+  padding: 70px 0;
+  margin: 10px 4%;
+  float: left;
+  width: 92%;
+  border-bottom: 4px dashed #ccc;
+}
+.section.last {
+  border-bottom: 0;
+}
+.header-content {
+  width: 75%;
+  float: left;
+}
+.narrow-col {
+  width: 97%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.half-col {
+  width: 47%;
+  float: left;
+  margin: 20px 1.5%;
+}
+.third-col {
+  width: 29%;
+  margin: 20px 1.5%;
+  float: left;
+}
+.clear {
+  width: 100%;
+  height: 0;
+  float: left;
+}
+#slides, #slides2 {
+  border: 4px solid #fff;
+  box-shadow: 0 0 5px #aaa;
+}
+.time {
+  line-height: 1em;
+  font-size: 0.4em;
+  color: #999;
+}
+.tuubio-slideshow_tabs li, .experq-slideshow_tabs li {
+  float: left;
+  margin-top: 5px;
+  margin-right: 5px;
+  border: 1px solid #bbb;
+  background: #eee;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.tuubio-slideshow_tabs li a, .experq-slideshow_tabs li a {
+  text-decoration: none;
+  color: #999;
+  padding: 2px 6px;
+  width: 15px;
+  text-align: center;
+  font-size: 0.8em;
+  line-height: 0.8em;
+}
+.tuubio-slideshow_tabs li.tuubio-slideshow_here, .experq-slideshow_tabs li.experq-slideshow_here {
+  background: #02c5d0;
+  border-color: #02c5d0;
+}
+.tuubio-slideshow_tabs li.tuubio-slideshow_here a, .experq-slideshow_tabs li.experq-slideshow_here a {
+  color: #fff;
+}
+.description {
+  display: block;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  font-size: 0.9em;
+  color: #fff;
+  bottom: 10px;
+  right: 10px;
+  text-align: right;
+}
+.description p {
+  color: #fff;
+  margin-bottom: 0;
+}
+strong {
+  font-weight: 600;
+}
+.slidetick {
+  float: left;
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: #ccc;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.slidetick:hover {
+  background: #bbb;
+}
+.slidetick.active {
+  background: #02c5d0;
+}
+a {
+  color: #006267;
+  text-decoration: none;
+}
+a.out {
+  font-weight: 600;
+}
+a:hover {
+  color: #02c5d0;
+}
+h1 {
+  font-size: 3em;
+  line-height: 1.3em;
+}
+h1, h2 {
+  font-family: 'museo', 'Helvetica Neue', 'Helvetica', 'Arial', 'Sans-serif';
+  font-size: 3.6em;
+  line-height: 1.3em;
+  padding: 0 0 20px 0;
+  font-weight: 900;
+  color: #02c5d0;
+  margin: 20px 1.5%;
+  margin-top: 0;
+  text-align: center;
+}
+h3 {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-family: 'museo', 'Helvetica Neue', 'Helvetica', 'Arial', 'Sans-serif';
+  color: #222;
+}
+p, ul, li {
+  margin-bottom: 10px;
+  font-family: "museo-sans", "helvetica neue", "helvetica", "arial";
+  font-weight: 300;
+  color: #222;
+}
+i {
+  font-style: italic;
+}
+p.ingress {
+  font-size: 1.3em;
+  line-height: 1.4em;
+  color: #444;
+}
